@@ -246,8 +246,8 @@ post_wordcount:
 #   qcode: /uploads/wechat-qcode.jpg
 #   description: 一分也是情，一分也是爱！
 reward_comment: 如果文章对您有帮助，请随意打赏
-wechatpay: http://p3dm71oa7.bkt.clouddn.com/wcpay.png
-alipay: http://p3dm71oa7.bkt.clouddn.com/zfbpay.jpg
+wechatpay: https://i.loli.net/2018/10/15/5bc436827b4bc.png
+alipay: https://i.loli.net/2018/10/15/5bc4368266e2b.png
 
 # Declare license on posts
 post_copyright:
