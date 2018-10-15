@@ -10,6 +10,14 @@
 </div>
 
 {% if theme.copyright %}
+<div class="Hosted-by">
+  {{ __('footer.powered', '<a class="theme-link" href="https://pages.github.com/">GitHub Pages</a>') }}
+  {{ __('footer.theme') }} -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.{{ theme.scheme }}
+  </a>
+</div>
+
 <!-- <div class="powered-by">
   {{ __('footer.powered', '<a class="theme-link" href="https://hexo.io">Hexo</a>') }}
 </div>
@@ -20,5 +28,6 @@
     NexT.{{ theme.scheme }}
   </a>
 </div>
+
 -->
 {% endif %}

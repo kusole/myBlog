@@ -12,7 +12,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://kusole.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -82,7 +82,7 @@ feed: # RSS订阅插件
 plugins: hexo-generate-feed
 
 algolia:
-  applicationID: '{TDX48RCCW2}'
-  apiKey: 'c3d7b633326fdd900bbf90992810ea52'
-  indexName: 'kusole'
+  applicationID: TDX48RCCW2
+  apiKey: c3d7b633326fdd900bbf90992810ea52
+  indexName: kusole
   chunkSize: 5000

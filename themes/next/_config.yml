@@ -241,10 +241,13 @@ post_wordcount:
   separated_meta: false
 
 # Wechat Subscriber
-wechat_subscriber:
-  enabled: true
-  qcode: /uploads/wechat-qcode.jpg
-  description: 一分也是情，一分也是爱！
+# wechat_subscriber:
+#   enabled: true
+#   qcode: /uploads/wechat-qcode.jpg
+#   description: 一分也是情，一分也是爱！
+reward_comment: 如果文章对您有帮助，请随意打赏
+wechatpay: http://p3dm71oa7.bkt.clouddn.com/wcpay.png
+alipay: http://p3dm71oa7.bkt.clouddn.com/zfbpay.jpg
 
 # Declare license on posts
 post_copyright:
@@ -289,8 +292,8 @@ mathjax:
 #swiftype_key:
 
 # Baidu Analytics ID
-baidu_analytics: bf3223fddf5f9c71af0da2bd98d7f981
-
+baidu_analytics: 124e5902fa6b3c1d89682ed1fa0441ac
+# LIUtao520/刘韬enjoy
 # Duoshuo ShortName
 #duoshuo_shortname:
 
@@ -330,7 +333,8 @@ livere_uid: MTAyMC80MDI5My8xNjgyMA==
 # Share
 #jiathis:
 # Warning: JiaThis does not support https.
-#add_this_id:
+# add_this_id: ra-5bc408d247cd4184
+# lt19942013@163.com
 
 # Share
 #duoshuo_share: true
