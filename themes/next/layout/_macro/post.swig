@@ -197,6 +197,7 @@
                {% endif %}
                  <span class="leancloud-visitors-count"></span>
              </span>
+             <span class="post-meta-divider">|</span>
           {% endif %}
 
           {% if not is_index and theme.busuanzi_count.enable and theme.busuanzi_count.page_pv %}
