@@ -11,7 +11,7 @@ categories: python学习
 
 图中的UML类图指出了“策略”模式对类的编排。
 
-![](http://otl4ekdmf.bkt.clouddn.com/strategy.png)
+![](strategy/strategy.png)
 <!--more-->
 ```python
 # classic_strategy.py

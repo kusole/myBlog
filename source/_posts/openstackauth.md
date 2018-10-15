@@ -185,6 +185,6 @@ login.html
 当用户已经登录时，显示登录成功和注销登录界面，当用户没有登录时，显示登录按键，当用户点击登录按钮后，进入登录界面，登录界面由django form表格生成，action为django的login，此时要输入的由用户名和密码，当用户填写好表格后，点击登录，form自动将表单提交给django_openstack_auth中的login视图函数来处理，之后交由controller的keystone的认证机制来进行认真，认证完成后，返回给用户一个凭据token,之后的操作都需要这个凭据来进行验证。
 
 之后的效果如下：
-![](http://otl4ekdmf.bkt.clouddn.com/openstackauth1.png)
-![](http://otl4ekdmf.bkt.clouddn.com/openstackauth2.png)
-![](http://otl4ekdmf.bkt.clouddn.com/openstackauth3.png)
+![](openstackauth/openstackauth1.png)
+![](openstackauth/openstackauth2.png)
+![](openstackauth/openstackauth3.png)

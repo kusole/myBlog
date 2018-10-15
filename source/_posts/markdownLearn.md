@@ -67,7 +67,7 @@ categories: MD学习
 # 3. 层次
 
 比如写个读书笔记，你得
-![](http://otl4ekdmf.bkt.clouddn.com/markdown00.png)
+![](markdownLearn/markdown00.png)
 也不难：
 ~~~
 #### 第一章
@@ -90,15 +90,15 @@ categories: MD学习
 
 # 4. 链接，图片
 
-你：我没读过 *Jane Eyre*
-我：以后别跟我说话！
-你：。。。
+你：我没读过 *Jane Eyre*  
+我：以后别跟我说话！  
+你：。。。  
 我：我也没读过，但是， [***Jane Eyre***](http://book.douban.com/subject/1141406/) is not just ***Jane Eyre***
-![](https://img5.doubanio.com/lpic/s5924326.jpg)
+![](markdownLearn/jianai.jpg)
 
 ~~~
 我：我也没读过，但是， [***Jane Eyre***](http://book.douban.com/subject/1141406/) is not just ***Jane Eyre***
-![](http://img3.douban.com/mpic/s1108264.jpg)
+![](markdownLearn/jianai.jpg)
 ~~~
 
 

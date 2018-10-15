@@ -159,7 +159,7 @@ tags:
    >
    > \> 如果你认为单词是由blank字符分隔符，那么你需要使用大写的E和W。（注：程序语句）
    >
-   > ![Word moves example](http://upload-images.jianshu.io/upload_images/3101171-46f752c581d79057.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+   > ![Word moves example](vim/wordmove.jpg)
 
 下面，让我来说说最强的光标移动：
 
@@ -208,7 +208,7 @@ tags:
 > - `t,` → 到逗号前的第一个字符。逗号可以变成其它字符。
 > - `3fa` → 在当前行查找第三个出现的a。
 > - `F` 和 `T` → 和 `f` 和 `t` 一样，只不过是相反方向。
->   ![Line moves](http://upload-images.jianshu.io/upload_images/3101171-00835b8316330c58.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+>   ![Line moves](vim/linemove.jpg)
 
 还有一个很有用的命令是 `dt"` → 删除所有的内容，直到遇到双引号—— `"。`
 
@@ -230,7 +230,7 @@ tags:
 > - `v2i)` → 会选择 `map (+) ("foo")`
 > - `v2a)` → 会选择 `(map (+) ("foo"))`
 
-![Text objects selection](http://upload-images.jianshu.io/upload_images/3101171-0b109d66a6111c83.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Text objects selection](vim/textobject.png)
 
 #### 块操作: `<C-v>`
 
@@ -241,7 +241,7 @@ tags:
 - `<C-d>` → 向下移动 (你也可以使用hjkl来移动光标，或是使用%，或是别的)
 - `I-- [ESC]` → I是插入，插入“`--`”，按ESC键来为每一行生效。
 
-![Rectangular blocks](http://upload-images.jianshu.io/upload_images/3101171-8b093a0f65707949.gif?imageMogr2/auto-orient/strip)
+![Rectangular blocks](vim/rectangular.gif)
 
 在Windows下的vim，你需要使用 `<C-q>` 而不是 `<C-v>` ，`<C-v>` 是拷贝剪贴板。
 
@@ -249,7 +249,7 @@ tags:
 
 在 Insert 模式下，你可以输入一个词的开头，然后按 `<C-p>或是<C-n>，自动补齐功能就出现了……`
 
-``![Completion](http://upload-images.jianshu.io/upload_images/3101171-e2ae877e67880ff7.gif?imageMogr2/auto-orient/strip)
+``![Completion](vim/completion.gif)
 
 #### 宏录制： `qa` 操作序列 `q`, `@a`, `@@`
 
@@ -278,7 +278,7 @@ tags:
 >
 > - 现在做 `100@@` 会创建新的100行，并把数据增加到 103.
 
-![Macros](http://upload-images.jianshu.io/upload_images/3101171-f1889f8bca723964.gif?imageMogr2/auto-orient/strip)
+![Macros](vim/macros.gif)
 
 #### 可视化选择： `v`,`V`,`<C-v>`
 
@@ -288,7 +288,7 @@ tags:
 - `<` 或 `>` → 左右缩进
 - `=` → 自动给缩进 （注：这个功能相当强大，我太喜欢了）
 
-![Autoindent](http://upload-images.jianshu.io/upload_images/3101171-fe1e19983fca213f.gif?imageMogr2/auto-orient/strip)
+![Autoindent](vim/autoindent.gif)
 
 在所有被选择的行后加上点东西：
 
@@ -297,7 +297,7 @@ tags:
 - `$` 到行最后
 - `A`, 输入字符串，按 `ESC。`
 
-![Append to many lines](http://upload-images.jianshu.io/upload_images/3101171-b192601247334c4e.gif?imageMogr2/auto-orient/strip)
+![Append to many lines](vim/manylines.gif)
 
 #### 分屏: `:split` 和 `vsplit`.
 
@@ -308,11 +308,11 @@ tags:
 > - `<C-w>_` (或 `<C-w>|`) : 最大化尺寸 (<C-w>| 垂直分屏)
 > - `<C-w>+` (或 `<C-w>-`) : 增加尺寸
 
-![Split](http://upload-images.jianshu.io/upload_images/3101171-f329d01e299cb366.gif?imageMogr2/auto-orient/strip)
+![Split](vim/split.gif)
 
 ## Vim 命令
 
-![image.png](http://upload-images.jianshu.io/upload_images/3101171-d11e01e8ebb89308.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](vim/vimkey.png)
 
 ## 资料
 

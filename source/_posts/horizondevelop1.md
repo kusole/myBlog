@@ -10,7 +10,7 @@ categories: openstack学习
 我们可以从[***OpenStack Releases***](https://releases.openstack.org/)下载所有发行版本的openstack，openstack每6个月发行一个版本。选择相应的openstac版本和相应组件版本。
 <!--more-->
 
-![](http://otl4ekdmf.bkt.clouddn.com/openstackrelease.png)
+![](horizondevelop1/openstackrelease.png)
 
 ## Horizon UI开发环境部署
 这里认为以及部署好一个openstack ocata基础环境，仅演示手动部署horizon ui开发环境
@@ -110,7 +110,7 @@ django-admin compilemessages
 
 ### 运行效果
 打开pycharm，加载运行horizon源码，选择编译器版本为python3,安装requirements.txt中的依赖，安装以上步骤配置完成后，点击运行，得到如下效果：
-![](http://otl4ekdmf.bkt.clouddn.com/horilogin.png)
+![](horizondevelop1/horilogin.png)
 
 登录进去效果如下:
-![](http://otl4ekdmf.bkt.clouddn.com/horizonmainpage.png)
+![](horizondevelop1/horizonmainpage.png)
