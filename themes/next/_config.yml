@@ -72,8 +72,9 @@ menu_icons:
 
 # Schemes
 #scheme: Muse
-# scheme: Mist
+#scheme: Mist
 scheme: Pisces
+
 
 
 # ---------------------------------------------------------------
@@ -178,7 +179,7 @@ toc:
 sidebar:
   # Sidebar Position, available value: left | right
   position: left
-  # position: right
+  #position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
@@ -275,7 +276,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night bright
+highlight_theme: normal
 
 # ---------------------------------------------------------------
 # Third Party Services Settings
@@ -321,7 +322,7 @@ changyan:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: MTAyMC80MDI5My8xNjgyMA==
+# livere_uid: MTAyMC80MDI5My8xNjgyMA==
 
 # Baidu Share
 # Available value:
